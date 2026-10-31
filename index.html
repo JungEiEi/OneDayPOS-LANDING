@@ -1,49 +1,86 @@
+<!DOCTYPE html>
 <html lang="th" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OneDayPOS — ระบบ POS สำหรับคาเฟ่และเบเกอรี่ ซื้อขาด ไม่มีรายเดือน</title>
-    <meta name="description" content="OneDayPOS ระบบ POS สำหรับคาเฟ่และเบเกอรี่ ร้านกาแฟ ร้านเบเกอรี่ โปรแกรมขายหน้าร้าน ซื้อขาด ไม่มีรายเดือน จัดการสต๊อก รายงานยอดขาย และออกใบเสร็จแบบมืออาชีพ">
-    <meta name="keywords" content="ระบบ POS สำหรับคาเฟ่, ระบบ POS สำหรับเบเกอรี่, POS ร้านกาแฟ, POS ร้านเบเกอรี่, โปรแกรมขายหน้าร้าน, โปรแกรมจัดการร้านค้า, ร้านคาเฟ่, ร้านเบเกอรี่, โปรแกรม POS ซื้อขาด, POS ไม่มีรายเดือน, software POS Thailand, POS สำหรับร้านอาหาร, ปรับปรุงระบบขายหน้าร้าน, บริหารสต๊อกสินค้า, ออกใบเสร็จ, รายงานยอดขาย, ระบบจัดการร้านค้า">
+    <title>OneDayPOS — ระบบ POS ร้านกาแฟ คาเฟ่ เบเกอรี่ ซื้อขาด ไม่มีรายเดือน</title>
+    <meta name="description" content="OneDayPOS ระบบ POS สำหรับคาเฟ่และเบเกอรี่ โปรแกรมขายหน้าร้าน ซื้อขาด จ่ายครั้งเดียวจบ ไม่มีรายเดือน บริหารสต๊อก ออกใบเสร็จ 80mm สรุปยอดขาย ดูผ่านมือถือได้">
+    <meta name="keywords" content="ระบบ POS สำหรับคาเฟ่, ระบบ POS สำหรับเบเกอรี่, POS ร้านกาแฟ, โปรแกรมขายหน้าร้าน ซื้อขาด, POS ไม่มีรายเดือน, โปรแกรมจัดการร้านกาแฟ, ระบบจัดการสต๊อกคาเฟ่">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="author" content="OneDayPOS">
+    <meta name="author" content="PRISM MATRIX">
     <meta name="theme-color" content="#7A1C1C">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="OneDayPOS — ระบบ POS สำหรับคาเฟ่และเบเกอรี่ ซื้อขาด ไม่มีรายเดือน">
-    <meta property="og:description" content="ระบบ POS สำหรับคาเฟ่และเบเกอรี่ ซื้อขาด ไม่มีรายเดือน จัดการสต๊อก รายงานยอดขาย และออกใบเสร็จแบบมืออาชีพ">
+    <meta property="og:description" content="โปรแกรมขายหน้าร้านสำหรับร้านกาแฟและเบเกอรี่ ซื้อขาด ไม่มีรายเดือนตลอดชีพ พร้อมบริการลงรายการเมนูให้ฟรี!">
     <meta property="og:url" content="https://jungeiei.github.io/OneDayPOS-LANDING/">
     <meta property="og:image" content="https://jungeiei.github.io/OneDayPOS-LANDING/hero.png">
     <meta property="og:locale" content="th_TH">
     <meta property="og:site_name" content="OneDayPOS">
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="OneDayPOS — ระบบ POS สำหรับคาเฟ่และเบเกอรี่">
-    <meta name="twitter:description" content="ระบบ POS สำหรับคาเฟ่และเบเกอรี่ ซื้อขาด ไม่มีรายเดือน แก้ปัญหาร้านค้าได้จริง">
+    <meta name="twitter:title" content="OneDayPOS — ระบบ POS สำหรับคาเฟ่และเบเกอรี่ ซื้อขาด">
+    <meta name="twitter:description" content="จัดการสต๊อก ออกใบเสร็จ สรุปยอดขาย คืนทุนไว ไม่มีรายเดือน">
     <meta name="twitter:image" content="https://jungeiei.github.io/OneDayPOS-LANDING/hero.png">
+    
     <link rel="canonical" href="https://jungeiei.github.io/OneDayPOS-LANDING/">
+
+    <!-- Schema.org JSON-LD (Software + FAQ) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "OneDayPOS",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "description": "ระบบ POS สำหรับคาเฟ่และเบเกอรี่ ร้านกาแฟ ร้านเบเกอรี่ โปรแกรมขายหน้าร้าน ซื้อขาด ไม่มีรายเดือน",
-      "offers": {
-        "@type": "Offer",
-        "price": "5900",
-        "priceCurrency": "THB",
-        "availability": "https://schema.org/InStock"
-      },
-      "areaServed": "TH",
-      "featureList": [
-        "ระบบขายหน้าร้านสำหรับร้านคาเฟ่และเบเกอรี่",
-        "จัดการสต๊อกสินค้า",
-        "รายงานยอดขายและการเงิน",
-        "ออกใบเสร็จมืออาชีพ",
-        "POS ซื้อขาด ไม่มีรายเดือน"
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "OneDayPOS",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web, Android, iOS, Windows",
+          "description": "ระบบ POS ขายหน้าร้านสำหรับคาเฟ่ ร้านกาแฟ และเบเกอรี่ ซื้อขาด ไม่มีรายเดือน จัดการสต๊อก สรุปยอดขาย และออกใบเสร็จ",
+          "brand": {
+            "@type": "Brand",
+            "name": "PRISM MATRIX"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "3900",
+            "priceCurrency": "THB",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://jungeiei.github.io/OneDayPOS-LANDING/"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "28"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "OneDayPOS ต้องจ่ายรายเดือนไหม?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ไม่มีค่าบริการรายเดือน เป็นระบบซื้อขาด จ่ายครั้งเดียวอัปเดตและใช้งานได้ตลอดชีพ"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "ต้องซื้ออุปกรณ์คอมพิวเตอร์ใหม่ไหม?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ไม่ต้องซื้ออุปกรณ์เพิ่ม สามารถใช้งานผ่านมือถือ แท็บเล็ต หรือคอมพิวเตอร์เดิมที่มีอยู่ได้ทันที"
+              }
+            }
+          ]
+        }
       ]
     }
     </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -65,69 +102,82 @@
         }
     </script>
 </head>
-<body class="bg-[#FAF7F2] text-zinc-800 font-sans antialiased selection:bg-primary selection:text-white">
+<body class="bg-[#FAF7F2] text-zinc-800 font-sans antialiased selection:bg-primary selection:text-white pb-16 md:pb-0">
 
+    <!-- Header Navigation -->
     <header class="sticky top-0 z-50 bg-[#7A1C1C] text-white shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center space-x-3">
-                <span class="text-2xl font-bold tracking-tight bg-white/10 px-3 py-1.5 rounded-xl border border-white/20">OneDayPOS</span>
+                <a href="#" class="text-2xl font-bold tracking-tight bg-white/10 px-3 py-1.5 rounded-xl border border-white/20">OneDayPOS</a>
                 <span class="hidden sm:inline-block text-xs uppercase tracking-widest bg-amber-500/20 text-amber-200 px-2.5 py-1 rounded-full font-medium">ซื้อขาด ไม่มีรายเดือน</span>
             </div>
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
                 <a href="#features" class="hover:text-amber-200 transition">จุดเด่นระบบ</a>
                 <a href="#functions" class="hover:text-amber-200 transition">ฟังก์ชันการทำงาน</a>
-                <a href="#pricing" class="hover:text-amber-200 transition">ราคาพิเศษ</a>
+                <a href="#pricing" class="hover:text-amber-200 transition">ราคาโปรโมชั่น</a>
+                <a href="#faq" class="hover:text-amber-200 transition">คำถามที่พบบ่อย</a>
                 <a href="#contact" class="hover:text-amber-200 transition">ติดต่อเรา</a>
             </nav>
             <div class="flex items-center space-x-3">
-                <a href="https://jungeiei.github.io/OneDayPOS-DEMO" target="_blank" class="bg-amber-500 hover:bg-amber-600 text-zinc-950 font-semibold px-4 py-2.5 rounded-xl shadow transition flex items-center space-x-2">
-                    <i class="fa-solid fa-laptop-code"></i>
-                    <span>ทดลองระบบเดโม</span>
+                <a href="https://jungeiei.github.io/OneDayPOS-DEMO" target="_blank" rel="noopener" class="bg-amber-500 hover:bg-amber-600 text-zinc-950 font-semibold px-4 py-2.5 rounded-xl shadow transition flex items-center space-x-2">
+                    <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+                    <span>ทดลองระบบเดโมฟรี</span>
                 </a>
             </div>
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28 bg-gradient-to-b from-[#7A1C1C]/10 to-transparent">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                     <div class="inline-flex items-center space-x-2 bg-primary/10 text-primary px-3.5 py-1.5 rounded-full text-sm font-semibold border border-primary/20">
-                        <i class="fa-solid fa-bolt text-amber-600"></i>
-                        <span>ระบบ POS อัจฉริยะสำหรับคาเฟ่และเบเกอรี่</span>
+                        <i class="fa-solid fa-fire text-amber-600" aria-hidden="true"></i>
+                        <span>โปรโมชั่นพิเศษสำหรับ 10 ร้านแรกของเดือนนี้</span>
                     </div>
-                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-zinc-900 leading-tight">
-                        OneDayPOS <br class="hidden sm:inline"><span class="text-primary">ระบบขายหน้าร้าน</span>
+                    
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-zinc-900 leading-tight">
+                        ระบบ POS ร้านกาแฟ คาเฟ่ & เบเกอรี่ <br><span class="text-primary">ซื้อขาด จ่ายครั้งเดียวจบ</span>
                     </h1>
-                    <div class="inline-block bg-primary text-white text-2xl sm:text-3xl font-bold px-6 py-3 rounded-2xl shadow-lg transform -rotate-1">
-                        5,900 บาท ซื้อขาด ไม่มีรายเดือน!
+                    
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3">
+                        <span class="bg-primary text-white text-xl sm:text-2xl font-bold px-5 py-2 rounded-xl shadow">
+                            พิเศษเพียง 3,900.- <span class="text-xs font-normal text-amber-200 line-through">ปกติ 5,900.-</span>
+                        </span>
+                        <span class="bg-emerald-100 text-emerald-800 text-sm font-semibold px-3.5 py-2 rounded-xl border border-emerald-300">
+                            <i class="fa-solid fa-gift mr-1"></i> ฟรี! บริการลงเมนูเริ่มต้น 50 รายการ
+                        </span>
                     </div>
-                    <p class="text-lg text-zinc-600 max-w-2xl mx-auto lg:mx-0">
-                        ไม่ต้องซื้ออุปกรณ์เพิ่ม! ใช้งานผ่านมือถือ แท็บเล็ต หรือคอมพิวเตอร์ สำหรับร้านกาแฟ ร้านเบเกอรี่ และธุรกิจขายของสดที่ต้องการระบบขายหน้าร้านที่ง่ายและรวดเร็ว
+
+                    <p class="text-base sm:text-lg text-zinc-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        หมดกังวลเรื่องค่าบริการรายเดือน! ใช้งานสะดวกผ่านมือถือ แท็บเล็ต หรือคอมพิวเตอร์ ตัดสต๊อกวัตถุดิบแม่นยำ ออกใบเสร็จรวดเร็ว และตรวจสอบรายงานยอดขายได้เรียลไทม์
                     </p>
+                    
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4 pt-4">
-                        <a href="https://jungeiei.github.io/OneDayPOS-DEMO" target="_blank" class="w-full sm:w-auto bg-primary hover:bg-primaryHover text-white font-semibold px-8 py-4 rounded-2xl shadow-lg transition text-center flex items-center justify-center space-x-3">
-                            <i class="fa-solid fa-circle-play"></i>
+                        <a href="https://jungeiei.github.io/OneDayPOS-DEMO" target="_blank" rel="noopener" class="w-full sm:w-auto bg-primary hover:bg-primaryHover text-white font-semibold px-8 py-4 rounded-2xl shadow-lg transition text-center flex items-center justify-center space-x-3">
+                            <i class="fa-solid fa-circle-play" aria-hidden="true"></i>
                             <span>ทดลองใช้งานเดโมฟรี</span>
                         </a>
-                        <a href="#contact" class="w-full sm:w-auto bg-white hover:bg-zinc-50 text-zinc-800 font-semibold px-8 py-4 rounded-2xl shadow border border-zinc-200 transition text-center flex items-center justify-center space-x-3">
-                            <i class="fa-solid fa-headset text-primary"></i>
-                            <span>สั่งซื้อ / สอบถาม</span>
+                        <a href="https://line.me/ti/p/~babayjay1234" target="_blank" rel="noopener" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg transition text-center flex items-center justify-center space-x-3">
+                            <i class="fa-brands fa-line text-xl" aria-hidden="true"></i>
+                            <span>สอบถามสิทธิ์ 3,900.- ทาง Line</span>
                         </a>
                     </div>
                 </div>
+
                 <div class="lg:col-span-5">
                     <div class="relative mx-auto max-w-md lg:max-w-none">
                         <div class="absolute -inset-1.5 bg-gradient-to-r from-primary to-amber-500 rounded-3xl blur-xl opacity-30 animate-pulse"></div>
                         <div class="relative bg-white p-3 rounded-3xl shadow-2xl border border-zinc-200/80">
-                            <img src="hero.png" alt="OneDayPOS Screen" class="rounded-2xl w-full object-cover shadow-inner" onerror="this.src='https://placehold.co/600x400/7A1C1C/FFFFFF?text=OneDayPOS'">
+                            <img src="hero.png" width="600" height="400" alt="หน้าจอโปรแกรม POS ขายหน้าร้านสำหรับคาเฟ่และเบเกอรี่ OneDayPOS" class="rounded-2xl w-full object-cover shadow-inner" onerror="this.src='https://placehold.co/600x400/7A1C1C/FFFFFF?text=OneDayPOS+Demo'">
                             <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-zinc-100 hidden sm:flex items-center space-x-3">
                                 <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold">
-                                    <i class="fa-solid fa-check"></i>
+                                    <i class="fa-solid fa-shield-heart" aria-hidden="true"></i>
                                 </div>
                                 <div>
                                     <p class="text-xs text-zinc-500 font-medium">ความพึงพอใจร้านค้า</p>
-                                    <p class="text-sm font-bold text-zinc-900">ประหยัดกว่าระบบรายเดือน 100%</p>
+                                    <p class="text-sm font-bold text-zinc-900">รับประกันคืนเงินใน 14 วัน</p>
                                 </div>
                             </div>
                         </div>
@@ -137,79 +187,88 @@
         </div>
     </section>
 
+    <!-- Features Section -->
     <section id="features" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-xs uppercase tracking-widest text-primary font-bold mb-3">จุดเด่นที่ร้านค้าเลือกใช้</h2>
-                <h3 class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight">ทำไมต้อง OneDayPOS?</h3>
-                <p class="text-zinc-600 mt-4 text-lg">ระบบ POS สำหรับร้านกาแฟและร้านเบเกอรี่ที่ออกแบบมาสำหรับผู้ประกอบการที่ต้องการความง่าย รวดเร็ว และลดค่าใช้จ่ายลงอย่างมีประสิทธิภาพ</p>
+                <h3 class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight">ทำไมต้อง OneDayPOS สำหรับร้านคาเฟ่ของคุณ?</h3>
+                <p class="text-zinc-600 mt-4 text-lg">ออกแบบโดยเน้นความง่าย รวดเร็ว และประหยัดค่าใช้จ่ายระยะยาว ให้คุณโฟกัสการทำขนมและชงกาแฟได้เต็มที่</p>
             </div>
+            
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-[#FAF7F2] p-8 rounded-3xl border border-zinc-200 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-primary text-white rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition shadow-md">
-                        <i class="fa-solid fa-laptop-code"></i>
+                        <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
                     </div>
                     <h4 class="text-xl font-bold text-zinc-900 mb-3">ใช้งานได้ทุกอุปกรณ์</h4>
                     <p class="text-zinc-600 leading-relaxed">
-                        เปิดใช้งานได้ทั้งบนคอมพิวเตอร์ มือถือ และแท็บเล็ต สะดวกสำหรับร้านคาเฟ่และเบเกอรี่ที่ต้องการขายแบบเคลื่อนที่และรวดเร็ว
+                        ไม่ต้องซื้อเครื่อง POS แพงๆ ใช้ได้ทั้งคอมพิวเตอร์ iPad แท็บเล็ต หรือมือถือ Android/iOS ขายหน้าร้านหรือออกบูธได้สะดวกรวดเร็ว
                     </p>
                 </div>
+
                 <div class="bg-[#FAF7F2] p-8 rounded-3xl border border-zinc-200 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-amber-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition shadow-md">
-                        <i class="fa-solid fa-coins"></i>
+                        <i class="fa-solid fa-piggy-bank" aria-hidden="true"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-zinc-900 mb-3">จ่ายครั้งเดียวจบ</h4>
+                    <h4 class="text-xl font-bold text-zinc-900 mb-3">ซื้อขาด จ่ายครั้งเดียวจบ</h4>
                     <p class="text-zinc-600 leading-relaxed">
-                        ราคาเพียง 5,900 บาท ซื้อขาด ไม่มีค่าบริการรายเดือน ไม่มีค่าแรกเข้า เหมาะสำหรับร้านกาแฟและร้านเบเกอรี่ที่ต้องการประหยัดค่าใช้จ่าย
+                        ไม่มีค่าบริการรายเดือน ไม่มีค่าธรรมเนียมแอบแฝง คืนทุนไวภายใน 3-6 เดือนแรก ช่วยลดต้นทุนคงที่ (Fixed Cost) ของร้านค้า
                     </p>
                 </div>
+
                 <div class="bg-[#FAF7F2] p-8 rounded-3xl border border-zinc-200 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-primary text-white rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition shadow-md">
-                        <i class="fa-solid fa-receipt"></i>
+                        <i class="fa-solid fa-print" aria-hidden="true"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-zinc-900 mb-3">ออกใบเสร็จมืออาชีพ</h4>
+                    <h4 class="text-xl font-bold text-zinc-900 mb-3">ออกใบเสร็จรับเงินมืออาชีพ</h4>
                     <p class="text-zinc-600 leading-relaxed">
-                        รองรับเครื่องพิมพ์กระดาษความร้อนขนาด 80 มม. หรือเลือกบันทึกเป็น PDF สำหรับการจัดการใบเสร็จแบบครบวงจร
+                        พิมพ์ใบเสร็จผ่านเครื่องพิมพ์ความร้อน (Thermal Printer) ขนาด 80mm หรือส่งใบเสร็จรูปแบบ PDF ทางออนไลน์ได้ทันที
                     </p>
                 </div>
+
                 <div class="bg-[#FAF7F2] p-8 rounded-3xl border border-zinc-200 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-primary text-white rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition shadow-md">
-                        <i class="fa-solid fa-boxes-stacked"></i>
+                        <i class="fa-solid fa-boxes-stacked" aria-hidden="true"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-zinc-900 mb-3">จัดการสต๊อกอัจฉริยะ</h4>
+                    <h4 class="text-xl font-bold text-zinc-900 mb-3">ระบบสต๊อกสินค้าอัจฉริยะ</h4>
                     <p class="text-zinc-600 leading-relaxed">
-                        เช็กสต๊อกสินค้าคงเหลือ เพิ่มเมนู และจัดหมวดหมู่สินค้าได้ง่ายเหมาะกับร้านคาเฟ่ ร้านเบเกอรี่ และร้านอาหารขนาดเล็ก
+                        ตัดสต๊อกอัตโนมัติทันทีเมื่อเปิดบิล พร้อมระบบแจ้งเตือนวัตถุดิบใกล้หมด ป้องกันปัญหาเบเกอรี่หมดตู้โดยไม่รู้ตัว
                     </p>
                 </div>
+
                 <div class="bg-[#FAF7F2] p-8 rounded-3xl border border-zinc-200 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-amber-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition shadow-md">
-                        <i class="fa-solid fa-chart-line"></i>
+                        <i class="fa-solid fa-chart-pie" aria-hidden="true"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-zinc-900 mb-3">รายงานยอดขายครบถ้วน</h4>
+                    <h4 class="text-xl font-bold text-zinc-900 mb-3">สรุปรายงานยอดขายแม่นยำ</h4>
                     <p class="text-zinc-600 leading-relaxed">
-                        ดูสรุปยอดขาย แยกประเภทการชำระ (เงินสด, โอน, บัตร) พร้อมระบบนับเงินและรายงานภาษีที่เข้มข้นยิ่งขึ้น
+                        สรุปยอดขายรายวัน แยกประเภทเงินสด สแกนโอน QR Code เช็กเมนูขายดี เพื่อนำไปวางแผนโปรโมชั่นและสั่งซื้อวัตถุดิบ
                     </p>
                 </div>
+
                 <div class="bg-[#FAF7F2] p-8 rounded-3xl border border-zinc-200 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-primary text-white rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition shadow-md">
-                        <i class="fa-solid fa-shield-halved"></i>
+                        <i class="fa-solid fa-headset" aria-hidden="true"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-zinc-900 mb-3">ปลอดภัยและเสถียร</h4>
+                    <h4 class="text-xl font-bold text-zinc-900 mb-3">บริการดูแลหลังการขาย</h4>
                     <p class="text-zinc-600 leading-relaxed">
-                        ข้อมูลการขายถูกจัดเก็บบนเครื่องของคุณ มั่นใจได้ในความปลอดภัยและความเสถียรสำหรับการใช้งานจริงทุกวัน
+                        มีทีมงานคอยให้คำปรึกษาและช่วยตั้งค่าระบบ Remote ซัพพอร์ตตลอดการใช้งาน มั่นใจได้ ไม่โดนลอยแพแน่นอน
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Functions Section -->
     <section id="functions" class="py-20 bg-[#FAF7F2]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-xs uppercase tracking-widest text-primary font-bold mb-3">ฟังก์ชันการทำงานหลัก</h2>
-                <h3 class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight">ตอบโจทย์ทุกความต้องการของร้านค้า</h3>
-                <p class="text-zinc-600 mt-4 text-lg">ครบเครื่องทุกเครื่องมือที่คุณต้องการในการบริหารร้านคาเฟ่และเบเกอรี่ด้วยโปรแกรม POS ที่ใช้งานง่ายและมีประสิทธิภาพ</p>
+                <h3 class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight">ครบทุกฟังก์ชันสำคัญ ครอบคลุมงานหน้าร้านและหลังร้าน</h3>
+                <p class="text-zinc-600 mt-4 text-lg">ออกแบบตาม workflow จริงของร้านกาแฟและเบเกอรี่ พนักงานเรียนรู้ไว ใช้งานได้ทันทีภายใน 5 นาที</p>
             </div>
+
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-8 rounded-3xl shadow-md border border-zinc-200 flex flex-col justify-between">
                     <div>
@@ -217,69 +276,76 @@
                         <h4 class="text-xl font-bold text-zinc-900 mb-4">ระบบขายหน้าร้าน (POS Interface)</h4>
                         <ul class="space-y-3 text-zinc-600">
                             <li class="flex items-start space-x-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
-                                <span>เลือกเมนูใส่ตะกร้า คำนวณยอดเงินอัตโนมัติ รวดเร็ว ลดเวลารอคอยของลูกค้า</span>
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>จิ้มเลือกเมนูกาแฟ/ขนม ใส่ตะกร้า คำนวณเงินและทอนเงินได้รวดเร็ว</span>
                             </li>
                             <li class="flex items-start space-x-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
-                                <span>ค้นหาสินค้าได้สะดวกรวดเร็ว ทั้งจากชื่อเมนูหรือรหัสเมนู เหมาะสำหรับร้านกาแฟและร้านเบเกอรี่</span>
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>รองรับการแยกหมวดหมู่สินค้าชัดเจน (เครื่องดื่มร้อน/เย็น, ขนมเบเกอรี่)</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>ค้นหาเมนูด่วนตามชื่อหรือรหัสสินค้า ลดคิวสะสมหน้าร้าน</span>
                             </li>
                         </ul>
                     </div>
                     <div class="mt-8 pt-6 border-t border-zinc-100">
-                        <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full">ใช้งานลื่นไหลบนทุกหน้าจอ</span>
+                        <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full">ขายไว ลดเวลารอคอยของลูกค้า</span>
                     </div>
                 </div>
+
                 <div class="bg-white p-8 rounded-3xl shadow-md border border-zinc-200 flex flex-col justify-between">
                     <div>
                         <div class="inline-block bg-primary/10 text-primary font-bold px-3.5 py-1.5 rounded-xl text-sm mb-6">หมวดที่ 2</div>
                         <h4 class="text-xl font-bold text-zinc-900 mb-4">ระบบจัดการหลังร้าน (Admin Dashboard)</h4>
                         <ul class="space-y-3 text-zinc-600">
                             <li class="flex items-start space-x-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
-                                <span>จัดการเมนู หมวดหมู่สินค้า (ข้าว, เบเกอรี่, เครื่องดื่ม) และกลุ่มโปรโมชั่นได้ตามความต้องการ</span>
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>เพิ่ม ลด แก้ไข ราคาเมนูกาแฟและขนมได้เองตลอดเวลา</span>
                             </li>
                             <li class="flex items-start space-x-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
-                                <span>ตั้งค่าสิทธิ์การใช้งานพนักงาน (ระดับแอดมิน และผู้ขาย)</span>
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>ตั้งค่าสิทธิ์พนักงาน (Admin ดูยอดขายได้ / Staff ขายหน้าร้านได้อย่างเดียว)</span>
                             </li>
                             <li class="flex items-start space-x-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
-                                <span>ตั้งชื่อเครื่อง POS และเลือกรูปแบบการพิมพ์ใบเสร็จตามต้องการ</span>
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>ปรับแต่งชื่อร้าน โลโก้ และข้อความท้ายใบเสร็จได้ตามต้องการ</span>
                             </li>
                         </ul>
                     </div>
                     <div class="mt-8 pt-6 border-t border-zinc-100">
-                        <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full">ควบคุมร้านได้แม้อยู่ไกล</span>
+                        <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full">ควบคุมร้านสะดวกแม้อยู่ไกล</span>
                     </div>
                 </div>
+
                 <div class="bg-white p-8 rounded-3xl shadow-md border border-zinc-200 flex flex-col justify-between">
                     <div>
                         <div class="inline-block bg-primary/10 text-primary font-bold px-3.5 py-1.5 rounded-xl text-sm mb-6">หมวดที่ 3</div>
-                        <h4 class="text-xl font-bold text-zinc-900 mb-4">ระบบจัดการสต๊อกและบิล</h4>
+                        <h4 class="text-xl font-bold text-zinc-900 mb-4">ระบบสต๊อก & สรุปยอดขาย</h4>
                         <ul class="space-y-3 text-zinc-600">
                             <li class="flex items-start space-x-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
-                                <span>แจ้งเตือนสินค้าใกล้หมด (ต่ำกว่า 10 ชิ้น) แบบอัตโนมัติ</span>
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>แจ้งเตือนสินค้าใกล้หมดสต๊อก (ต่ำกว่า 10 ชิ้น) แบบอัตโนมัติ</span>
                             </li>
                             <li class="flex items-start space-x-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
-                                <span>ระบบยกเลิกบิลพร้อมบันทึกเหตุผล คืนสต๊อกสินค้าทันที ป้องกันความผิดพลาด</span>
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>ระบบยกเลิกบิลพร้อมบันทึกเหตุผล เพื่อป้องกันการทุจริต</span>
                             </li>
                             <li class="flex items-start space-x-3">
-                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1"></i>
-                                <span>ตรวจสอบประวัติการขายรายวัน สรุปยอดนำส่งเงินสด และดาวน์โอนอย่างชัดเจน</span>
+                                <i class="fa-solid fa-circle-check text-emerald-600 mt-1" aria-hidden="true"></i>
+                                <span>สรุปยอดเงินสด สแกนโอน และเงินนำส่งประจำวันได้อย่างแม่นยำ</span>
                             </li>
                         </ul>
                     </div>
                     <div class="mt-8 pt-6 border-t border-zinc-100">
-                        <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full">ตัดสต๊อกแม่นยำ 100%</span>
+                        <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full">เงินไม่รั่วไหล สต๊อกไม่หาย</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Pricing Section -->
     <section id="pricing" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-gradient-to-br from-zinc-900 to-zinc-950 text-white rounded-3xl p-8 sm:p-12 lg:p-16 shadow-2xl relative overflow-hidden">
@@ -287,30 +353,43 @@
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
                     <div class="lg:col-span-7 space-y-6">
                         <span class="bg-amber-500/20 text-amber-300 px-3.5 py-1.5 rounded-full text-sm font-semibold border border-amber-500/30 inline-block">
-                            คุ้มค่าที่สุดในตลาด
+                            ข้อเสนอพิเศษช่วงเปิดตัว (Founder Deal)
                         </span>
                         <h3 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
-                            ทดลองใช้งานระบบจริงก่อนตัดสินใจ!
+                            เป็นเจ้าของระบบ POS ซื้อขาด <br><span class="text-amber-400">ในราคาคุ้มที่สุดวันนี้!</span>
                         </h3>
-                        <p class="text-zinc-300 text-lg leading-relaxed">
-                            อยากรู้ว่าใช้งานง่ายขนาดไหน? สามารถคลิกเข้าไปทดลองระบบ POS สำหรับร้านกาแฟ ร้านเบเกอรี่ และธุรกิจขายของสดได้แบบฟรี
-                        </p>
+                        <ul class="space-y-3 text-zinc-300">
+                            <li class="flex items-center space-x-3">
+                                <i class="fa-solid fa-check text-amber-400"></i>
+                                <span>ฟรี! บริการคีย์ข้อมูลเมนูและราคาเริ่มต้น 50 รายการ (ส่งไฟล์มาให้เราจัดจัดการให้)</span>
+                            </li>
+                            <li class="flex items-center space-x-3">
+                                <i class="fa-solid fa-check text-amber-400"></i>
+                                <span>ฟรี! บริการ Remote ช่วยเหลือตั้งค่าเชื่อมต่อเครื่องพิมพ์ใบเสร็จ</span>
+                            </li>
+                            <li class="flex items-center space-x-3">
+                                <i class="fa-solid fa-check text-amber-400"></i>
+                                <span>รับประกันความพึงพอใจ ยินดีคืนเงินภายใน 14 วัน</span>
+                            </li>
+                        </ul>
                         <div class="pt-2">
-                            <a href="https://jungeiei.github.io/OneDayPOS-DEMO" target="_blank" class="inline-flex items-center space-x-3 bg-amber-500 hover:bg-amber-600 text-zinc-950 font-bold px-8 py-4 rounded-2xl shadow-lg transition">
-                                <i class="fa-solid fa-globe"></i>
-                                <span>คลิกเปิดลิงก์เดโม: jungeiei.github.io/OneDayPOS-DEMO</span>
+                            <a href="https://jungeiei.github.io/OneDayPOS-DEMO" target="_blank" rel="noopener" class="inline-flex items-center space-x-3 bg-amber-500 hover:bg-amber-600 text-zinc-950 font-bold px-8 py-4 rounded-2xl shadow-lg transition">
+                                <i class="fa-solid fa-laptop" aria-hidden="true"></i>
+                                <span>คลิกเพื่อทดลองระบบเดโมฟรี</span>
                             </a>
                         </div>
                     </div>
+
                     <div class="lg:col-span-5 bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/15 text-center space-y-6">
-                        <span class="text-xs uppercase tracking-widest text-amber-300 font-bold">ราคาพิเศษซื้อขาด</span>
+                        <span class="text-xs uppercase tracking-widest text-amber-300 font-bold">สิทธิ์โปรโมชั่น 10 ร้านแรก</span>
                         <div class="flex items-baseline justify-center space-x-2">
-                            <span class="text-5xl font-extrabold">5,900</span>
+                            <span class="text-5xl font-extrabold text-amber-400">3,900</span>
                             <span class="text-xl font-medium text-zinc-300">บาท</span>
                         </div>
+                        <p class="text-xs text-zinc-400 line-through">จากราคาปกติ 5,900 บาท</p>
                         <p class="text-sm text-zinc-300">จ่ายครั้งเดียวจบ ไม่มีรายเดือนตลอดชีพ</p>
-                        <a href="#contact" class="block w-full bg-primary hover:bg-primaryHover text-white font-bold py-3.5 rounded-xl shadow transition text-center">
-                            สั่งซื้อระบบตอนนี้
+                        <a href="https://line.me/ti/p/~babayjay1234" target="_blank" rel="noopener" class="block w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl shadow transition text-center">
+                            <i class="fa-brands fa-line mr-2"></i> ทักแชทสั่งซื้อ / สองถามสิทธิ์
                         </a>
                     </div>
                 </div>
@@ -318,55 +397,94 @@
         </div>
     </section>
 
-    <section id="contact" class="py-20 bg-[#FAF7F2] border-t border-zinc-200">
+    <!-- FAQ Section (สำหรับติด Rich Snippet บน Google) -->
+    <section id="faq" class="py-20 bg-[#FAF7F2]">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-xs uppercase tracking-widest text-primary font-bold mb-3">FAQ</h2>
+                <h3 class="text-3xl font-bold text-zinc-900">คำถามที่พบบ่อย</h3>
+            </div>
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-zinc-200">
+                    <h4 class="font-bold text-lg text-zinc-900 mb-2">Q: มีค่าบริการรายเดือน หรือรายปีเพิ่มเติมไหม?</h4>
+                    <p class="text-zinc-600">A: ไม่มีครับ OneDayPOS เป็นระบบซื้อขาด จ่ายครั้งเดียวใช้งานได้ตลอดชีพ ไม่มีค่าธรรมเนียมแอบแฝง</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-zinc-200">
+                    <h4 class="font-bold text-lg text-zinc-900 mb-2">Q: ต้องซื้ออุปกรณ์เครื่อง POS ใหม่ไหม?</h4>
+                    <p class="text-zinc-600">A: ไม่จำเป็นครับ สามารถเปิดใช้งานผ่าน Web Browser บนอุปกรณ์เดิมที่คุณมี เช่น คอมพิวเตอร์ Notebook, iPad, แท็บเล็ต หรือมือถือได้ทันที</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-zinc-200">
+                    <h4 class="font-bold text-lg text-zinc-900 mb-2">Q: ลงรายการเมนูและตั้งค่าระบบยากไหม?</h4>
+                    <p class="text-zinc-600">A: ไม่ยากครับ ระบบใช้งานง่ายมาก และพิเศษช่วงโปรโมชั่น เรามีบริการช่วยคีย์รายการเมนูเริ่มต้น 50 รายการให้ฟรี ส่งไฟล์มาให้เราจัดการได้เลย!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white border-t border-zinc-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-xs uppercase tracking-widest text-primary font-bold mb-3">ช่องทางการติดต่อ</h2>
-                <h3 class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight">สนใจสั่งซื้อ / สอบถามข้อมูลเพิ่มเติม</h3>
-                <p class="text-zinc-600 mt-4 text-lg">ทีมงานพร้อมให้บริการและให้คำปรึกษาตลอดเวลา</p>
+                <h3 class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight">พร้อมเปลี่ยนร้านคาเฟ่ของคุณให้จัดการง่ายขึ้น?</h3>
+                <p class="text-zinc-600 mt-4 text-lg">ทีมงาน PRISM MATRIX พร้อมให้บริการและตอบข้อสงสัยตลอดเวลา</p>
             </div>
+            
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-                <div class="bg-white p-8 rounded-3xl shadow-md border border-zinc-200 text-center space-y-4 hover:border-emerald-500 transition group">
+                <div class="bg-[#FAF7F2] p-8 rounded-3xl shadow-md border border-zinc-200 text-center space-y-4 hover:border-emerald-500 transition group">
                     <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center text-3xl mx-auto group-hover:scale-110 transition shadow-sm">
-                        <i class="fa-brands fa-line"></i>
+                        <i class="fa-brands fa-line" aria-hidden="true"></i>
                     </div>
                     <h4 class="text-lg font-bold text-zinc-900">Line Official</h4>
                     <p class="text-primary font-semibold text-xl">babayjay1234</p>
-                    <a href="https://line.me/ti/p/~babayjay1234" target="_blank" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-6 py-2 rounded-xl text-sm transition shadow">
-                        แอดไลน์พูดคุย
+                    <a href="https://line.me/ti/p/~babayjay1234" target="_blank" rel="noopener" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-6 py-2.5 rounded-xl text-sm transition shadow">
+                        แอดไลน์สอบถาม
                     </a>
                 </div>
-                <div class="bg-white p-8 rounded-3xl shadow-md border border-zinc-200 text-center space-y-4 hover:border-primary transition group">
+
+                <div class="bg-[#FAF7F2] p-8 rounded-3xl shadow-md border border-zinc-200 text-center space-y-4 hover:border-primary transition group">
                     <div class="w-16 h-16 bg-primary/10 text-primary rounded-2xl flex items-center justify-center text-3xl mx-auto group-hover:scale-110 transition shadow-sm">
-                        <i class="fa-solid fa-phone-volume"></i>
+                        <i class="fa-solid fa-phone-volume" aria-hidden="true"></i>
                     </div>
                     <h4 class="text-lg font-bold text-zinc-900">เบอร์โทรศัพท์</h4>
                     <p class="text-primary font-semibold text-xl">094-627-8508</p>
-                    <a href="tel:0946278508" class="inline-block bg-primary hover:bg-primaryHover text-white font-medium px-6 py-2 rounded-xl text-sm transition shadow">
-                        โทรด่วนทันที
+                    <a href="tel:0946278508" class="inline-block bg-primary hover:bg-primaryHover text-white font-medium px-6 py-2.5 rounded-xl text-sm transition shadow">
+                        โทรปรึกษาด่วน
                     </a>
                 </div>
-                <div class="bg-white p-8 rounded-3xl shadow-md border border-zinc-200 text-center space-y-4 hover:border-blue-500 transition group">
+
+                <div class="bg-[#FAF7F2] p-8 rounded-3xl shadow-md border border-zinc-200 text-center space-y-4 hover:border-blue-500 transition group">
                     <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-3xl mx-auto group-hover:scale-110 transition shadow-sm">
-                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
                     </div>
                     <h4 class="text-lg font-bold text-zinc-900">Facebook Page</h4>
                     <p class="text-zinc-800 font-semibold text-sm">PRISM Matrix Web Developer</p>
-                    <a href="https://facebook.com" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2 rounded-xl text-sm transition shadow">
-                        เยี่ยมชมเพจ
+                    <a href="https://facebook.com" target="_blank" rel="noopener" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2.5 rounded-xl text-sm transition shadow">
+                        ทักข้อความเพจ
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-zinc-900 text-zinc-400 py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-            <p class="text-white text-xl font-bold tracking-tight">OneDayPOS</p>
-            <p class="text-sm">ระบบขายหน้าร้านสำหรับคาเฟ่และเบเกอรี่ ซื้อขาด ไม่มีรายเดือน จัดการสต๊อก รายงานยอดขาย และออกใบเสร็จแบบมืออาชีพ</p>
+            <p class="text-white text-xl font-bold tracking-tight">OneDayPOS by PRISM MATRIX</p>
+            <p class="text-sm max-w-2xl mx-auto">ระบบขายหน้าร้านสำหรับคาเฟ่ ร้านกาแฟ และร้านเบเกอรี่ ซื้อขาด ไม่มีรายเดือน จัดการสต๊อก สรุปยอดขาย และออกใบเสร็จแบบมืออาชีพ</p>
             <p class="text-xs text-zinc-600 pt-4 border-t border-zinc-800">© 2026 OneDayPOS. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Mobile Sticky CTA Bar (สำหรับเพิ่ม Conversion บนมือถือ) -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 p-3 z-50 flex items-center justify-between space-x-2 shadow-lg">
+        <a href="https://jungeiei.github.io/OneDayPOS-DEMO" target="_blank" rel="noopener" class="w-1/2 bg-amber-500 text-zinc-950 font-bold py-2.5 rounded-xl text-center text-sm">
+            <i class="fa-solid fa-laptop mr-1"></i> ลองเดโมฟรี
+        </a>
+        <a href="https://line.me/ti/p/~babayjay1234" target="_blank" rel="noopener" class="w-1/2 bg-emerald-600 text-white font-bold py-2.5 rounded-xl text-center text-sm">
+            <i class="fa-brands fa-line mr-1"></i> สั่งซื้อ 3,900.-
+        </a>
+    </div>
 
 </body>
 </html>
